@@ -291,3 +291,12 @@ font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", 
 	border: medium;
 }
 
+.jumbotron { background-image: url("../images/mountains-jumbotron2.jpg")
+}
+
+.my-background {background-image: url("../images/boomtak.jpg");
+}
+
+.our-team {text-align: center;
+	
+}
