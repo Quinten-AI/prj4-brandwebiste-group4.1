@@ -12,10 +12,10 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    padding-top: 3px;
-    padding-right: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
+    padding-top: -8px;
+    padding-right: -3px;
+    padding-bottom: -3px;
+    padding-left: -3px;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -235,7 +235,9 @@ body {
 #vision {
 	margin-bottom: -400px ;
 }
-
+#about {
+	margin-bottom: -400px ;
+}
 
 .team4 {
   font-family: "Montserrat", sans-serif;
@@ -291,7 +293,9 @@ font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", 
 	border: medium;
 }
 
-.jumbotron { background-image: url("../images/mountains-jumbotron2.jpg")
+.jumbotron { background-image: url("../images/mountains-jumbotron2.jpg");
+	align-self: auto ;
+	background-size: auto ;
 }
 
 .my-background {background-image: url("../images/boomtak.jpg");
