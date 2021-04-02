@@ -12,10 +12,6 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    padding-top: -8px;
-    padding-right: -3px;
-    padding-bottom: -3px;
-    padding-left: -3px;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -395,6 +391,22 @@ font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", 
 	font-weight: 600;
 	line-height: 1;
 }
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -30px ;
+}
+
+.portfolio-item {
+  margin-bottom: 10px;
+}
+
 
 .payment-form .card-details{
 	padding: 25px 25px 15px;
