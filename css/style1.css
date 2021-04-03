@@ -1,12 +1,12 @@
 @charset "utf-8";
 body {
   overflow-x: hidden;
-  font-family: Roboto Slab,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Roboto" ;
 }
 
 body {
     margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-family: "Roboto" ;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -42,7 +42,7 @@ header.masthead {
     background-size: cover;
     color: #FFFFFF;
     font-size: 30px;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-family: "Roboto" ;
     font-weight: bold;
     height: 40%;
     min-height: 1000px;
@@ -56,14 +56,17 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-family: "Roboto" ;
     font-style: normal;
 	
 }
 
 h1 {
-	color: #F2BB07 ;
-	text-align: center ;
+    color: #F2BB07;
+    text-align: center;
+    text-shadow: 3px 3px 1px #000000;
+    font-family: "Roboto";
+    font-weight: 1000;
 }
 
 
@@ -73,6 +76,7 @@ h5 {
 
 p{
 	color:#3d3d3d ;
+	font-family: "Roboto" ;
 }
 
 .container-fluid{
@@ -86,7 +90,7 @@ p{
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "Roboto" ;
     color: #F2BB07;
     text-shadow: 3px 6px #000000;
   }
@@ -145,7 +149,7 @@ section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-family: "Roboto" ;
 }
 
 section h3.section-subheading {
@@ -154,7 +158,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: Droid Serif,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Roboto" ;
 }
 @media (min-width:992px) {
   .col-lg-12 {
@@ -167,7 +171,7 @@ section h3.section-subheading {
 
 h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Roboto" ;
 }
 
 .h4, h4 {
@@ -223,7 +227,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: Droid Serif,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Roboto" ;
 }
 
 col-md-4{
@@ -245,7 +249,7 @@ body {
 }
 
 .team4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto" ;
 	color: #8d97ad;
   font-weight: 300;
 }
@@ -287,7 +291,7 @@ body {
 }
 
 h4{ 
-font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+font-family: "Roboto" ;
 }
 
 .carousel-caption{
@@ -311,7 +315,7 @@ font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", 
 
 .payment-form{
 	padding-bottom: 50px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Roboto" ;
 }
 
 .payment-form.dark{
@@ -480,7 +484,9 @@ a:visited {
 }
 
 h2 {
-	color: #F2BB07 ;
+    color: #F2BB07;
+    text-shadow: 1px 1px #000000;
+	font-family:"Roboto";
 }
 
 .btn {
