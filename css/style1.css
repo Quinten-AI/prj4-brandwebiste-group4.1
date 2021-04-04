@@ -219,7 +219,6 @@ section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
-    text-shadow: 0px 0px #FFFFFF;
 }
 
 section h3.section-subheading {
@@ -488,7 +487,6 @@ a:visited {
 
 h2 {
     color: #F2BB07;
-    text-shadow: 1px 1px #000000;
 	font-family:"Roboto";
 }
 
@@ -496,7 +494,7 @@ h2 {
     background-color: #F2BB07;
     color: black;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
 }
 .btn-primary {
@@ -506,7 +504,7 @@ h2 {
 	background-color: #223B5B ;
 		color: white ;
 	font-family: "Roboto" ;
-	    font-size: 20px;
+	    font-size: 16px;
     font-weight: bold;
 }
 .btn-primary:hover {
@@ -519,7 +517,7 @@ h2 {
 	background-color: #87986A ;
 		color: black ;
 	font-family: "Roboto" ;
-	    font-size: 20px;
+	    font-size: 16px;
     font-weight: bold;
 }
 .text-uppercase .section-heading{
